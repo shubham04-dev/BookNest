@@ -1,0 +1,89 @@
+body{
+    background-color: #f5efe6;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: #5a3e2b;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+a{
+    color: #5a3e2b;
+    margin-right: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+h2{
+    color: #5a3e2b;
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+h3{
+    color: #5a3e2b;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}
+img{
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #5a3e2b;
+}
+p{
+    color: #4a4a4a;
+    font-size: 16px;
+    text-align: center;
+}
+.books{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.book{
+    width: 220px;
+    text-align: center;
+
+}
+.book h3{
+    min-height: 48px;
+}
+.book p:first-of-type{
+    min-height: 40px;
+}
+.book p:last-of-type{
+    font-weight: bold;
+}
+.book img{
+    width: 150px;
+    height: 220px;
+}
+a[href="index.html"],
+a[href="about.html"],
+a[href="contact.html"] {
+    background-color: #5a3e2b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner{
+    background-color: #d6b98c;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px  #999999;
+}
