@@ -74,7 +74,8 @@ p{
 }
 a[href="index.html"],
 a[href="about.html"],
-a[href="contact.html"] {
+a[href="contact.html"],
+a[href="order.html"]{
     background-color: #5a3e2b;
     color: white;
     padding: 10px 20px;
@@ -86,4 +87,25 @@ a[href="contact.html"] {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 3px 10px  #999999;
+}
+input, textarea, button {
+    display: block;
+    margin: 4px auto;
+}
+
+input, textarea {
+    width: 220px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 45px;
+}
+button {
+    background-color: #5a3e2b;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
