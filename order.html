@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Your Order | BookNest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">HOME</a>
+    <h2>Place Your Order</h2>
+    <p>Choose your next favourite book!</p>
+
+    <div class="order-box">
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <label for="book">Select Your Book</label>
+            <select id="book" required>
+                <option value="">Choose a book</option>
+                <option>Atomic Habits</option>
+                <option>The Psychology of Money</option>
+                <option>IKIGAI</option>
+                <option>Rich Dad Poor Dad</option>
+                <option>How to Win Friends and Influence People</option>
+                <option>The 7 Habits of Highly Effective People</option>
+                <option>The Power of Now</option>
+                <option>The Intelligent Investor</option>
+                <option>Thinking, Fast and Slow</option>
+                <option>Man's Search for Meaning</option>
+                <option>Clean Code</option>
+                <option>The Pragmatic Programmer</option>
+                <option>Deep Work</option>
+                <option>Can't Hurt Me</option>
+                <option>The Monk Who Sold His Ferrari</option>
+                <option>The Courage to Be Disliked</option>
+                <option>Zero to One</option>
+                <option>Start with Why</option>
+                <option>The Mountain Is You</option>
+                <option>The Silent Patient</option>
+                <option>The Palace of Illusions</option>
+            </select>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity"
+                   min="1" value="1" required>
+
+            <label for="address">Delivery Address</label>
+            <textarea id="address"
+                      placeholder="Enter your full address"
+                      required></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+</body>
+</html>
+```
